@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                 ),
               ),
             ),
-            Align(
+            /*Align(
               alignment: Alignment.bottomLeft,
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                   offset: Offset(1.0, 1.0),
                 ),
               ),
-            ),
+            ),*/
             Align(
               alignment: Alignment.bottomCenter,
               child: AspectRatio(
