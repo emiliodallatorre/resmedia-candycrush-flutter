@@ -9,7 +9,7 @@ class Application extends StatelessWidget {
     return BlocProvider<GameBloc>(
       bloc: GameBloc(),
       child: MaterialApp(
-        title: 'Flutter Crush',
+        title: "Fruit gift",
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,

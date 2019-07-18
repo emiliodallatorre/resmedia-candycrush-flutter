@@ -99,9 +99,10 @@ class _GameSplashState extends State<GameSplash>
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
+                // TODO: Adattarlo alle giuste dimensioni.
                 Container(
                     child: Text(
-                  'Level:  ${widget.level.index}',
+                  "Livello: ${widget.level.index}",
                   style: TextStyle(fontSize: 24.0, color: Colors.white),
                 )),
                 SizedBox(height: 8.0),

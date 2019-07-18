@@ -98,10 +98,10 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                     ),
                     itemBuilder: (BuildContext context, int index){
                       return GameLevelButton(
-                        width: 80.0,
-                        height: 60.0,
+                        width: 120.0,
+                        height: 80.0,
                         borderRadius: 50.0,
-                        text: 'Level ${index + 1}',
+                        text: "Livello ${index + 1}",
                         onTap: () async {
                           Level newLevel = await gameBloc.setLevel(index + 1);
 
@@ -132,7 +132,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                       Align(
                         alignment: Alignment.center,
                         child: ShadowedText(
-                          text: 'Flutter Crush',
+                          text: "Fruit gift!",
                           color: Colors.white,
                           fontSize: 26.0,
                           shadowOpacity: 1.0,
